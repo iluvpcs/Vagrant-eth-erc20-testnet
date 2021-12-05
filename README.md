@@ -10,6 +10,10 @@ First install on your Windows/Mac/Linux Vagrant.
 I personally installed a VM of ubuntu, this way I can easily after doing "sudo apt-get install vagrant" then do the steps below
 --------
 ```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+sudo apt-get install vagrant
 git clone https://github.com/iluvpcs/vagrant-ethereum-dev
 cd vagrant-ethereum-dev
 (Change the static ip of 192.168.10.11 to something else in the Vagrantfile if that address is taken.)
